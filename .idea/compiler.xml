@@ -23,7 +23,7 @@
       <module name="discovery-service" options="-parameters" />
       <module name="project-service" options="-parameters" />
       <module name="task-service" options="-parameters" />
-      <module name="ticketing-project-microservices-fromScratch" options="-parameters" />
+      <module name="ticketing-project-microservices-fromScratch" options="" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
