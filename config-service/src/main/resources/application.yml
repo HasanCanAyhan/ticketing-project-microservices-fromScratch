@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/HasanCanAyhan/ticketing-project-microservices-config
+          default-label: main
+          username: HasanCanAyhan #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 : real password
+          password: '{cipher}b9fcfdff4340c7cb070b5cafa0bad34ef2f670cb35a6250cb3ab8775d65fbecb38307ec89c3e7965e307cc888c1958d765a91c67d190d065bbe186633b898e44'
+      fail-fast: true
+
+encrypt:
+  key: cydeo
+
+server:
+  port: 8888
